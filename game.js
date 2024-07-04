@@ -18,7 +18,7 @@ let gameScreen = document.querySelector(".game-screen");
 let gameScreenHeader = document.querySelector(".game-screen-header");
 let homeScreenHeader = document.querySelector(".menu-header");
 let homeScreenHeaderTitle = document.querySelector(".menu-header-title");
-let howToScreen = document.querySelector(".instructions-container");
+let howToScreen = document.querySelector(".how-to-container");
 let pauseMenuScreen = document.querySelector(".pause-menu-container");
 let pauseMenuHeading = document.querySelector(".pause-menu-heading");
 

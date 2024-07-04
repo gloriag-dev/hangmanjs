@@ -202,7 +202,7 @@ button {
   background-repeat: repeat;
 }
 
-.instructions-container {
+.how-to-container {
   display: flex;
   flex-direction: column;
   gap: var(--menu-gap);
@@ -547,7 +547,7 @@ button {
   }
   /************ Home Screen ***********/
   /******** How To Play Screen ********/
-  .instructions-container {
+  .how-to-container {
     flex-direction: row;
   }
 
