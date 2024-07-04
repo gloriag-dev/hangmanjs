@@ -554,8 +554,6 @@ button {
   .instruction {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: 5rem auto;
-        gap: 0px */
     gap: 2rem;
     align-items: center;
   }
