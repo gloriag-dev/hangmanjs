@@ -21,6 +21,7 @@ let homeScreenHeaderTitle = document.querySelector(".menu-header-title");
 let howToScreen = document.querySelector(".how-to-container");
 let pauseMenuScreen = document.querySelector(".pause-menu-container");
 let pauseMenuHeading = document.querySelector(".pause-menu-heading");
+let categoryHeader = document.querySelector(".category-header");
 
 /* Buttons */
 let chooseCategoryBtn = document.querySelectorAll(".category-btn");
@@ -136,6 +137,7 @@ function checkLetter(letter) {
 }
 
 function startGame(category) {
+  categoryHeader.innerHTML = category;
   continueGameBtn.innerHTML = "<h4>Continue</h4>";
   pauseMenuHeading.innerHTML = "Paused";
   hiddenWord = "";
