@@ -111,7 +111,6 @@ function togglePauseMenu() {
 function checkLetter(letter) {
   for (let i = 0; i < hiddenWord.length; i++) {
     if (letter === hiddenWord[i]) {
-      console.log(letter);
       const letterTile = hiddenWordContainer.children[i].querySelector(
         ".hidden-letter-inner"
       );
@@ -167,7 +166,6 @@ function startGame(category) {
         Math.random() * data.categories[category].length
       );
       hiddenWord = data.categories[category][randNum].name.toLowerCase();
-      console.log(hiddenWord);
 
       populateWord(hiddenWord);
     })
